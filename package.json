@@ -1,0 +1,24 @@
+{
+  "name": "rover",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index",
+    "lint": "eslint src/**/*.js"
+  },
+  "repository": "https://github.com/OCESS/rover.git",
+  "author": "Ivan Fonseca <ivanfon@riseup.net>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "escope": "^3.6.0",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-socket-2": "^1.0.17",
+    "koa-static": "^4.0.2",
+    "onoff": "^1.1.9"
+  }
+}

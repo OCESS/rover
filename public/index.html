@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>OCESS Rover</title>
+
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <section class="header">
+            <img src="img/OCESS_transparent.png">
+            <h2 class="title">Rover</h2>
+          </section>
+        </div>
+      </div>
+
+      <div id="camera">
+        <div class="row">
+          <div class="offset-by-four four columns">
+            <p>(insert camera stream here)</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="controls">
+        <h3>Controls</h3>
+          <p id="up">Up: W / Up arrow key</p>
+          <p id="left">Left: A / Left arrow key</p>
+          <p id="down">Down: S / Down arrow key</p>
+          <p id="right">Right: D / Right arrow key</p>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/socket.io.js"></script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
